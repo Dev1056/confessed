@@ -1,0 +1,47 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffcccc, #ffe6e6);
+  text-align: center;
+  color: #333;
+}
+
+.intro, .proposal, .final-scene {
+  padding: 20px;
+  margin-top: 30vh;
+}
+
+.buttons, .choice-buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.stickman, .stickwoman {
+  height: 150px;
+  margin: 10px;
+}
+
+.celebration {
+  font-size: 2em;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
